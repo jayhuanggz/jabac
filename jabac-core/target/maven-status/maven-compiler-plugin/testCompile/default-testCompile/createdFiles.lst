@@ -1,0 +1,7 @@
+com/essue/jabac/core/expression/MvelExpressionEvaluatorTest.class
+com/essue/jabac/core/condition/ConditionServiceImplTest.class
+com/essue/jabac/core/resource/RegexResourceMatherTest.class
+com/essue/jabac/core/condition/ConditionEvaluatorTest.class
+com/essue/jabac/core/model/PermissionSetImplTest.class
+com/essue/jabac/core/policy/PolicyQualifierImplTest.class
+com/essue/jabac/core/auth/AuthManagerImplTest.class

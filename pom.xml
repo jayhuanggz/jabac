@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <groupId>com.essue</groupId>
+    <artifactId>jabac</artifactId>
+    <version>0.0.1</version>
+    <modules>
+        <module>jabac-core</module>
+        <module>jabac-client</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>jabac</name>
+    <description>
+        A java framework for attribute based access control(abac)
+    </description>
+
+    <inceptionYear>2020</inceptionYear>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <guava.version>30.1-jre</guava.version>
+        <mvel2.version>2.4.12.Final</mvel2.version>
+        <junit.version>4.13</junit.version>
+        <mockito.version>3.4.6</mockito.version>
+
+
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.mvel</groupId>
+                <artifactId>mvel2</artifactId>
+                <version>${mvel2.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.essue</groupId>
+                <artifactId>jabac-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.essue</groupId>
+                <artifactId>jabac-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.essue</groupId>
+                <artifactId>jabac-spring</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-core</artifactId>
+                <version>${mockito.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
+
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-pmd-plugin</artifactId>
+                    <version>3.13.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.13.0</version>
+            </plugin>
+        </plugins>
+    </reporting>
+
+    <scm>
+        <connection>scm:git:git://github.com/jayhuanggz/jabac.git</connection>
+        <developerConnection>scm:git:git@github.com:jayhuanggz/jabac.git</developerConnection>
+        <url>https://github.com/jayhuanggz/jabac</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Jay Huang</name>
+            <email>512841513@qq.com</email>
+            <organization>Essue</organization>
+            <organizationUrl>http://essue.asia</organizationUrl>
+            <roles>
+                <role>Project Owner</role>
+            </roles>
+        </developer>
+
+    </developers>
+</project>
+

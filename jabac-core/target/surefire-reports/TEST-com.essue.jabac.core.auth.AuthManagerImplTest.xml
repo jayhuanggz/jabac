@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="0" name="com.essue.jabac.core.auth.AuthManagerImplTest" time="0.024" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/docker/jdk1.8.0_101/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="HK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/media/docker/b83330ad-185b-4a72-a09c-22b5b474dc6a/renqilai/jabac"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/home/docker/jdk1.8.0_101/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/docker/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-170-generic"/>
+    <property name="user.home" value="/home/docker"/>
+    <property name="user.timezone" value="Asia/Hong_Kong"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="docker"/>
+    <property name="java.class.path" value="/home/docker/maven/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/home/docker/jdk1.8.0_101/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/home/docker/jdk1.8.0_101/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/home/docker/jdk1.8.0_101/jre/lib/resources.jar:/home/docker/jdk1.8.0_101/jre/lib/rt.jar:/home/docker/jdk1.8.0_101/jre/lib/sunrsasign.jar:/home/docker/jdk1.8.0_101/jre/lib/jsse.jar:/home/docker/jdk1.8.0_101/jre/lib/jce.jar:/home/docker/jdk1.8.0_101/jre/lib/charsets.jar:/home/docker/jdk1.8.0_101/jre/lib/jfr.jar:/home/docker/jdk1.8.0_101/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/docker/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.essue.jabac.core.auth.AuthManagerImplTest" name="evaluateAccess_matchWithMismatchDenyPolicy" time="0.007"/>
+  <testcase classname="com.essue.jabac.core.auth.AuthManagerImplTest" name="evaluateAccess_denyForMismatchPermission" time="0"/>
+  <testcase classname="com.essue.jabac.core.auth.AuthManagerImplTest" name="evaluateAccess_matchForMultiplePolicies" time="0.009"/>
+  <testcase classname="com.essue.jabac.core.auth.AuthManagerImplTest" name="evaluateAccess_matchPolicyWithCondition" time="0.004"/>
+  <testcase classname="com.essue.jabac.core.auth.AuthManagerImplTest" name="evaluateAccess_matchWithDenyPolicy" time="0.004"/>
+  <testcase classname="com.essue.jabac.core.auth.AuthManagerImplTest" name="evaluateAccess_matchPolicyWithNoCondition" time="0"/>
+</testsuite>
