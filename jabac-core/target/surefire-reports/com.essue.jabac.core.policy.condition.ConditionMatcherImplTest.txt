@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.essue.jabac.core.resource.RegexResourceMatherTest
+Test set: com.essue.jabac.core.policy.condition.ConditionMatcherImplTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec

@@ -1,7 +1,5 @@
 com/essue/jabac/core/expression/MvelExpressionEvaluatorTest.class
-com/essue/jabac/core/condition/ConditionServiceImplTest.class
-com/essue/jabac/core/resource/RegexResourceMatherTest.class
-com/essue/jabac/core/condition/ConditionEvaluatorTest.class
-com/essue/jabac/core/model/PermissionSetImplTest.class
-com/essue/jabac/core/policy/PolicyQualifierImplTest.class
-com/essue/jabac/core/auth/AuthManagerImplTest.class
+com/essue/jabac/core/policy/condition/ConditionMatcherImplTest.class
+com/essue/jabac/core/EngineTest.class
+com/essue/jabac/core/path/DefaultPathMatcherTest.class
+com/essue/jabac/core/policy/condition/ConditionEvaluatorTest.class

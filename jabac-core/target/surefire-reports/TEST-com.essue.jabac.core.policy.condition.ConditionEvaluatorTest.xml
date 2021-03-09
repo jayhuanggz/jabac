@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="com.essue.jabac.core.condition.ConditionServiceImplTest" time="0.034" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/docker/jdk1.8.0_101/jre/lib/amd64"/>
@@ -59,10 +59,13 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.essue.jabac.core.condition.ConditionServiceImplTest" name="matchCondition_forMultipleConditions" time="0.013"/>
-  <testcase classname="com.essue.jabac.core.condition.ConditionServiceImplTest" name="matchCondition_forOneConditionWithOneKeyAndMultipleValues" time="0.005"/>
-  <testcase classname="com.essue.jabac.core.condition.ConditionServiceImplTest" name="matchCondition_forOneConditionWithOneKeyAndOneValueForInOp" time="0.006"/>
-  <testcase classname="com.essue.jabac.core.condition.ConditionServiceImplTest" name="matchCondition_forOneConditionWithOneKeyAndOneValueWhenPrincipalNotMatch" time="0.002"/>
-  <testcase classname="com.essue.jabac.core.condition.ConditionServiceImplTest" name="matchCondition_forOneConditionWithOneKeyAndOneValueWhenResourceNotMatch" time="0.003"/>
-  <testcase classname="com.essue.jabac.core.condition.ConditionServiceImplTest" name="matchCondition_forOneConditionWithOneKeyAndOneValue" time="0.005"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="bool_notMatch" time="0"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="equals_string" time="0"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="in_string" time="0"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="in" time="0.001"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="bool" time="0"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="bool_typeNotMatch" time="0"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="equals_stringEmpty" time="0"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="in_notMatch" time="0.001"/>
+  <testcase classname="com.essue.jabac.core.policy.condition.ConditionEvaluatorTest" name="equals_stringNotMatch" time="0"/>
 </testsuite>
