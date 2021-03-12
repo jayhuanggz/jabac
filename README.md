@@ -74,7 +74,7 @@ A policy example:
 
 
 
-The policy example means: for resources that starts with "service:order:",  actions that match "order:*" is allowed given the conditions are met:
+The policy example means: for resources that starts with "service:order:",  actions that match "order:*" are allowed given the conditions are met:
 
 1. tenantId of resource is equals to tenantId of principal
 2. merchantId of resource is equals to merchantId of principal
@@ -82,6 +82,3 @@ The policy example means: for resources that starts with "service:order:",  acti
 
 You can read examples in  **EngineTest**
 
-In the next articles I will dive into the details. But before that I need to complete the documentations first.
-
-Github: https://github.com/jayhuanggz/jabac
